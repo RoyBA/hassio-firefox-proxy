@@ -8,14 +8,11 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/quentinchap/hassio-addon-example.git"
+      "url": "git+https://github.com/RoyBA/hassio-firefox-proxy"
     },
     "author": "RoyBa",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/quentinchap/hassio-addon-example/issues"
-    },
-    "homepage": "https://github.com/quentinchap/hassio-addon-example#readme",
+    "homepage": "https://github.com/RoyBA/hassio-firefox-proxy",
     "dependencies": {
       "body-parser": "^1.17.2",
       "express": "^4.15.4",

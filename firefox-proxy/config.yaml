@@ -1,13 +1,14 @@
 name: Firefox Proxy
 version: "1.2.0"
 slug: firefox-proxy
+description: Allows you to use Firefox web interface within Home Assistant UI.
+url: "https://github.com/RoyBA/hassio-firefox-proxy"
 init: false
 panel_icon: mdi:web
 panel_title: Firefox
 panel_admin: true
 ingress: true
 hassio_api: true
-description: Proxy for Firefox Docker container
 boot: auto
 arch: 
     - aarch64
