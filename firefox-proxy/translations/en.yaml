@@ -1,0 +1,10 @@
+configuration:
+  server_container_name:
+    name: Server Container Name
+    description: Docker container name.
+  server_port:
+    name: Server Port
+    description: Port to access the application's GUI via the web interface.
+  is_secured:
+    name: Secure connection
+    description: When enabled, application's GUI is performed over an HTTPs connection when accessed with a browser.

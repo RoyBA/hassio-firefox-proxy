@@ -1,0 +1,5 @@
+{
+    "name": "Home Assistant Add-on: Firefox Proxy",
+    "url": "https://github.com/RoyBA/hassio-firefox-proxy.git",
+    "maintainer": "Roy B.a <royba9@gmail.com>"
+  }
