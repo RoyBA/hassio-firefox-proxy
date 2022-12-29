@@ -1,6 +1,6 @@
 # Home Assistant Add-on: Firefox Proxy
 
-<img src="./logo.png" height="80px"/></a>
+<img src="https://github.com/RoyBA/hassio-firefox-proxy/raw/main/firefox-proxy/logo.png" height="80px"/></a>
 
 <img src="https://img.shields.io/badge/release-1.2.0-blue" /></a>
 <img src="https://img.shields.io/badge/project%20stage-expirimental-orange" /></a>
