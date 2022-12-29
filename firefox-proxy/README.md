@@ -27,6 +27,10 @@ docker run -d \
     --net=hassio \
     -p 5800:5800 \
     -v /docker/appdata/firefox:/config:rw \
+    -v /usr/share/fonts:/usr/share/fonts:rw \
+    -e DARK_MODE=1 \
+    -e DISPLAY_HEIGHT=900 \
+    -e DISPLAY_WIDTH=1600 \
     --shm-size 2g \
     jlesage/firefox
 ```
@@ -45,6 +49,11 @@ services:
       - hassio
     volumes:
       - "/docker/appdata/firefox:/config:rw"
+      - "/usr/share/fonts:/usr/share/fonts:rw"
+    environment:
+      - DARK_MODE=1
+      - DISPLAY_HEIGHT=900
+      - DISPLAY_WIDTH=1600
 ```
 
 ## Configuration
