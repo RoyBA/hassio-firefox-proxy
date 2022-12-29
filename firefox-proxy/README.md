@@ -19,6 +19,22 @@ docker run -d \
     jlesage/firefox
 ```
 
+Here is an example of a `docker-compose.yml` file that can be used with
+[Docker Compose](https://docs.docker.com/compose/overview/).
+
+```yaml
+version: '3'
+services:
+  firefox:
+    image: jlesage/firefox
+    ports:
+      - "5800:5800"
+    networks:
+      - hassio
+    volumes:
+      - "/docker/appdata/firefox:/config:rw"
+```
+
 ## Configuration
 ---
 | Parameter | Description |
