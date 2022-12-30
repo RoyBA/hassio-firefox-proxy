@@ -1,7 +1,7 @@
 configuration:
   server_container_name:
     name: Server Container Name
-    description: Docker container name.
+    description: Firefox Docker container name.
   server_port:
     name: Server Port
     description: Port to access the application's GUI via the web interface.

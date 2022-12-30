@@ -60,6 +60,6 @@ services:
 ---
 | Parameter | Description |
 |-----------|-------------|
-| Server Container Name        | Docker container name. |
+| Server Container Name        | Firefox Docker container name. |
 | Server Port        | Port to access the application's GUI via the web interface. |
 | Secure connection        | When enabled, application's GUI is performed over an HTTPs connection. |
