@@ -19,7 +19,7 @@ Allows you to use Firefox web interface within Home Assistant UI.
 Launch [Firefox docker container](https://github.com/jlesage/docker-firefox#quick-start).
 
 **NOTE**: The Firefox Docker container needs to share its network namespace with the Home Assistant network.  
-Below is an example Docker command to run the container in hassio networking mode:
+Below is an example Docker command to run the container in **hassio networking mode**:
 
 ```shell
 docker run -d \
