@@ -12,13 +12,13 @@
 <img src="https://img.shields.io/badge/armv7-yes-brightgreen" /></a>
 <img src="https://img.shields.io/badge/i386-yes-brightgreen" /></a>
 
-Allows you to use Firefox web interface within Home Assistant UI.
+This Home Assistant add-on enables you to utilize the Firefox web interface within the Home Assistant UI.
 
 ## Pre-Installation
 ---
-Launch [Firefox docker container](https://github.com/jlesage/docker-firefox#quick-start).
+Before proceeding, you need to launch a [Firefox Docker container](https://github.com/jlesage/docker-firefox#quick-start).
 
-**NOTE**: The Firefox Docker container needs to share its network namespace with the Home Assistant network.  
+**NOTE**: The Firefox Docker container must share its network namespace with the Home Assistant network.  
 Below is an example Docker command to run the container in **hassio networking mode**:
 
 ```shell
@@ -35,7 +35,7 @@ docker run -d \
     jlesage/firefox
 ```
 
-Here is an example of a `docker-compose.yml` file that can be used with
+Alternatively, you can use the following `docker-compose.yml` file with
 [Docker Compose](https://docs.docker.com/compose/overview/).
 
 ```yaml
@@ -60,6 +60,6 @@ services:
 ---
 | Parameter | Description |
 |-----------|-------------|
-| Server Container Name        | Firefox Docker container name. |
-| Server Port        | Port to access the application's GUI via the web interface. |
-| Secure connection        | When enabled, application's GUI is performed over an HTTPs connection. |
+| Server Container Name        | The name of the Firefox Docker container. |
+| Server Port        | The port to access the application's GUI via the web interface. |
+| Secure connection        | When enabled, the application's GUI is accessed over an HTTPS connection. |
